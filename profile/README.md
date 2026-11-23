@@ -12,7 +12,7 @@ Weight-space programming papers, code and runnable examples for representing and
 
 ## Code and runnable examples
 
-- [Program-as-Weights examples](https://github.com/weightspaceprogramming/examples#2-compile-and-reuse-an-email-urgency-function-with-paw): compile English specifications into LoRA adapters, then run and compose urgency and routing functions.
+- [Program-as-Weights (NeurIPS 2026)](https://weightspaceprogramming.tech/research/program-as-weights/) introduces a programming paradigm for fuzzy functions, a compiler–interpreter interface and the FuzzyBench benchmark. PAW specifically trains a compiler to turn natural-language function specifications into LoRA adapters that edit a frozen interpreter’s weights. [Run its urgency and routing examples](https://github.com/weightspaceprogramming/examples#2-compile-and-reuse-an-email-urgency-function-with-paw).
 - [PAW and prompting outputs](https://github.com/weightspaceprogramming/examples#email-triage-and-request-routing): compare the same Qwen3-0.6B model with a compiled adapter and a prompted specification.
 - [Sparks weight-reading heatmaps](https://github.com/weightspaceprogramming/examples/blob/main/WEIGHT_READING.md): inspect four released game networks and reproduce the input-layer norm calculation discussed by Sean Goedecke.
 - [Tracr token counter](https://github.com/weightspaceprogramming/examples#1-compile-a-token-counter-with-tracr): compile RASP into transformer weights and check exact counts on CPU.
